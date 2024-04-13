@@ -1,0 +1,25 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+.close-icon {
+  font-size: 20px;
+}
+@media screen and (min-width: 768px) {
+  .close-icon {
+    font-size: 35px;
+  }
+}
+.close-button {
+  border: none;
+  background-color: transparent;
+  align-self: flex-end;
+}
